@@ -45,3 +45,8 @@ void test_ssort() {
   compare(arr, sorted, 11);
 
   }
+
+int main(void) {
+  test_swap_max();
+  test_ssort();
+  }
